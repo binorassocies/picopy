@@ -1,0 +1,2 @@
+KERNEL=="sd*", KERNELS=="1-1.2", SUBSYSTEMS=="usb", SYMLINK+="src_usb%n"
+KERNEL=="sd*", KERNELS=="1-1.[3-5]", SUBSYSTEMS=="usb", SYMLINK+="dst_usb%n"
