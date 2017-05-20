@@ -15,5 +15,10 @@ The raspbian image will be modified to be a read only system. At every boot it w
 
 The copy script detect automatically the partition structure on the provided USB. The destination USB must be formatted with FAT16/32/NTFS. In addition, the source USB can be in any of the following file system: ext2 ext3 ext4 hfs hfs+. The following partition tables are also supported: msdos, gpt, loop and mac.
 
+## Download
+You can download a ready to usage image from https://ln.sync.com/dl/cc56abdd0/jndxjjvp-422a4udx-s7hzt6ue-cdycdgdr.
+
+The SHA256 for img file is: 3dd8bbec6f259e1dfd09da41f74cda146556441f96578d3fc51bca5699e7140b.
+
 ## References
 This work was inspired by the [Circlean project](https://github.com/CIRCL/Circlean)
